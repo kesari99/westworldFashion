@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+#sectionHome{
+    float: left;
+    width: 20%;
+    /* background-color: beige; */
+    /* height: 150vh; */
+}
+
+.sectionNew {
+    display: none;
+    float: right;
+    width: 80%;
+    background-color: beige;
+    /* height: 100px; */
+
+
+  }
+.heading{
+    font-family: Bree serif;
+    margin: 40px;
+    text-decoration: underline;
+    display: block;
+
+}
+
+.button{
+    border: none;
+    font-family: Bree serif;
+    background-color: white;
+}
+
+.home-container{
+    text-align: vertical;
+
+}
+.sectionNew{
+   
+    padding: 30px; 
+}
+.homeHeading{
+    color: rgb(219, 217, 139);
+    font-weight: 500;
+}
+.home-image{
+    width: 143px;
+    border-radius: 12px;
+}
+.image-brand{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #746e6e;
+
+}
+.image-cost{
+    font-weight: 300;
+    font-family: Bree serif;
+    color: #807979;
+
+}
+.img-container{
+    margin: 10px;
+
+}
+.home-description{
+    color: #8c8080;
+    
+    font-weight: 400;
+    font-family: Roboto;
+}
+.collection-heading{
+    color: rgb(4, 4, 4);
+    
+}
+.information-para{
+    font-family: Roboto;
+    font-weight: 500;
+    color: #8c8080;
+   
+
+}

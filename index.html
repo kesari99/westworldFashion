@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <title>WestWorld Fashion</title>
+</head>
+
+<body>
+
+    <div id="sectionHome">
+        <div class="home-container">
+
+
+            <button class="button heading" onclick="displaySection('sectionnew1')"> Home</button>
+            <button class="button heading" onclick="displaySection('sectionnew2')"> Information</button>
+            <button class="button heading" onclick="displaySection('sectionnew3')"> Contact</button>
+            <button class="button heading" onclick="displaySection('sectionnew4')"> Guide</button>
+
+
+        </div>
+    </div>
+
+    <div id="sectionnew1" class="sectionNew">
+        <h3 class="homeHeading"> Welcome to Westworld Collections</h3>
+
+        <div class="d-flex flex-row justify-content-center">
+
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+                    style="width: 394px; height: 295px; margin: 35px;">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100"
+                                src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNsb3RoaW5nJTIwYnJhbmR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://images.unsplash.com/photo-1508853363419-a9263d752c59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNsb3RoaW5nJTIwYnJhbmR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://images.unsplash.com/photo-1560243563-062bfc001d68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdGhpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+                    style="width: 394px; height: 295px;  margin: 35px;">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100"
+                                src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvdGhpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdGhpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhpbmd8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+                                alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <p class="home-description">We are a cloth store whole sale business companny. We sell all sorts of cloth ware
+            from westren to traditional.We have collections from various top brands like zara,
+            denim and fabinda.You can check our wardrobe for down here.
+        </p>
+
+        <h4 class="collection-heading"> western collections:</h4>
+
+        <div class="d-flex flex-row justify-contet-center">
+
+            <div class="d-flex flex-column justify-contet-center img-container">
+                <div>
+                    <img src="https://images.pexels.com/photos/3775120/pexels-photo-3775120.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="home-image">
+                </div>
+
+                <div class="">
+                    <p class="image-brand">Zara</p>
+                    <p class="image-cost">RS.2500</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column justify-contet-center img-container">
+                <div>
+                    <img src="https://images.pexels.com/photos/1040424/pexels-photo-1040424.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="home-image">
+                </div>
+
+                <div class="">
+                    <p class="image-brand">GAP</p>
+                    <p class="image-cost">RS.3000</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column justify-contet-center img-container">
+                <div>
+                    <img src="https://images.pexels.com/photos/58592/pexels-photo-58592.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="home-image">
+                </div>
+
+                <div class="">
+                    <p class="image-brand">WestWorld</p>
+                    <p class="image-cost">RS.1500</p>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="collection-heading">Traditional collections:</h4>
+
+        <div class="d-flex flex-row justify-contet-center">
+
+            <div class="d-flex flex-column justify-contet-center img-container">
+                <div>
+                    <img src="https://images.pexels.com/photos/7037110/pexels-photo-7037110.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="home-image">
+                </div>
+
+                <div class="">
+                    <p class="image-brand">Saree</p>
+                    <p class="image-cost">RS.4500</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column justify-contet-center img-container">
+                <div>
+                    <img src="https://images.pexels.com/photos/13192083/pexels-photo-13192083.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="home-image">
+                </div>
+
+                <div class="">
+                    <p class="image-brand">Lehanga</p>
+                    <p class="image-cost">RS.3000</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column justify-contet-center img-container">
+                <div>
+                    <img src="https://images.pexels.com/photos/12668929/pexels-photo-12668929.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        class="home-image">
+                </div>
+
+                <div class="">
+                    <p class="image-brand">Sherwani</p>
+                    <p class="image-cost">RS.4500</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div id="sectionnew2" class="sectionNew">
+
+        <h1></h1>
+
+        <p class="information-para">
+
+            In the enchanting realm of fashion, where creativity intertwines with style, there exists a captivating
+            clothing company known as Westworld Collections. With an aura of elegance and a touch of modernity,
+            Westworld Collections has established itself as a trendsetter in the realm of apparel.,<br>
+            <br>
+            Drawing inspiration from the harmonious blend of traditional craftsmanship and contemporary design,
+            Westworld Collections weaves a tapestry of fashion that transcends boundaries. Each garment created by this
+            esteemed company carries the essence of sophistication, reflecting a unique fusion of artistry and<br>
+            innovation.
+            <br>
+            <br>
+            Westworld Collections is renowned for its meticulous attention to detail, ensuring that every stitch and
+            fabric choice is an expression of excellence. From luxurious fabrics sourced from around the world to
+            intricate embellishments that adorn their creations, each piece reflects the company's unwavering
+            commitment<br>
+            to quality and style.
+            <br>
+            <br>
+            The brand's signature collections boast a diverse range of clothing, catering to the refined tastes of both
+            men and women. From formal attire exuding grace and refinement to casual ensembles exuding effortless chic,
+            Westworld Collections embraces versatility without compromising on elegance.
+            <br>
+            The ethos of Westworld Collections extends beyond aesthetics. With a strong emphasis on sustainability and
+            ethical practices, the company embraces a responsible approach towards fashion. By prioritizing eco-friendly
+            materials and partnering with ethical manufacturers, Westworld Collections aims to minimize its ecological
+            footprint and contribute positively to the world.
+            <br>
+            <br>
+            Beyond its exceptional clothing offerings, Westworld Collections stands as a beacon of inspiration and
+            empowerment. Through collaborations with emerging designers and support for charitable causes, the company
+            nurtures creativity and fosters positive change within the fashion industry.
+
+
+        </p>
+    </div>
+
+    <div id="sectionnew3" class="sectionNew">
+
+        <h5></h5>
+        <p class="information-para">
+
+            Certainly! Here is the contact information for Westworld Collections with proper HTML line breaks:
+
+            Company Name: Westworld Collections<br>
+            Website: www.westworldcollections.com<br>
+            Email: info@westworldcollections.com<br>
+            Phone: +1-555-123-4567<br>
+            <br>
+            Headquarters:<br>
+            Address: 123 Fashion Avenue, Cityville, Countryland<br>
+            Postal Code: 12345<br>
+            <br>
+            Customer Service:<br>
+            For any inquiries, assistance, or feedback regarding Westworld Collections' products or services, the
+            dedicated customer service team is readily available to assist you. You can reach out to them through the
+            following channels:<br>
+            <br>
+            Email: customerservice@westworldcollections.com<br>
+            Phone: +1-555-987-6543<br>
+            Working Hours: Monday to Friday, 9:00 AM to 5:00 PM (EST)<br>
+            <br>
+            Wholesale Inquiries:<br>
+            If you are interested in becoming a wholesale partner with Westworld Collections, you can get in touch with
+            the wholesale department for further information and collaboration opportunities.<br>
+            <br>
+            Email: wholesale@westworldcollections.com<br>
+            Phone: +1-555-789-0123<br>
+            <br>
+            Press and Media Inquiries:<br>
+            For press releases, media interviews, or any media-related inquiries, Westworld Collections has a dedicated
+            media relations team to address your needs.<br>
+            <br>
+            Email: media@westworldcollections.com<br>
+            Phone: +1-555-456-7890<br>
+            <br>
+            Social Media:<br>
+            Stay connected with Westworld Collections and be the first to know about their latest collections, fashion
+            trends, and promotions by following them on social media:<br>
+            <br>
+            Instagram: @westworldcollections<br>
+            Facebook: Westworld Collections<br>
+            Twitter: @WestworldFashion<br>
+            <br>
+            Feel free to reach out to Westworld Collections through any of the provided contact methods. Their team will
+            be delighted to assist you with any questions, concerns, or collaboration opportunities you may have.
+
+
+        </p>
+    </div>
+
+    <div id="sectionnew4" class="sectionNew">
+        <p class="information-para">
+
+            Certainly! Here is the guide for Westworld Collections with HTML line breaks:
+
+            1. Explore the Website:<br>
+            Visit the official website of Westworld Collections at www.westworldcollections.com. Take your time to
+            navigate through the different sections of the website, including the homepage, product categories, and
+            featured collections. Get acquainted with the company's aesthetic, style, and offerings.
+            <br>
+            <br>
+            2. Browse the Collections:<br>
+            Westworld Collections offers a wide range of stylish and high-quality clothing items. Explore their
+            collections, which include trendy outfits, classic designs, and unique fashion pieces. Take note of the
+            diverse styles, colors, and sizes available to suit your preferences.
+            <br> <br>
+            3. Size and Fit Guide:<br>
+            To ensure you select the right size for your clothing items, refer to Westworld Collections' size and fit
+            guide. This guide provides detailed measurements and recommendations for each clothing category. It's
+            essential to review this information to make informed choices and ensure a comfortable fit.
+            <br>
+            <br>
+            4. Product Details and Descriptions:<br>
+            When browsing through the website, click on individual product images to access detailed information and
+            descriptions. Pay attention to fabric composition, care instructions, and additional features to determine
+            if a particular item meets your requirements.
+            <br>
+            <br>
+            5. Ordering Process:<br>
+            Once you've found your desired items, proceed to the ordering process. Select the appropriate size and
+            quantity for each product before adding them to your cart. Review your order summary and ensure all details
+            are accurate. Proceed to the checkout page to provide your shipping and billing information.
+            <br>
+            <br>
+            6. Secure Payment Options:<br>
+            Westworld Collections prioritizes the security and privacy of its customers. They offer secure payment
+            options to facilitate a smooth and worry-free transaction. Choose your preferred payment method, such as
+            credit card, debit card, or PayPal, to complete your purchase securely.
+            <br>
+            <br>
+            7. Shipping and Delivery:<br>
+            Westworld Collections strives to provide timely delivery of your orders. During the checkout process, you'll
+            be able to select your preferred shipping method. Take note of estimated delivery times and any additional
+            shipping charges that may apply based on your location. Once your order is shipped, you can track its
+            progress and eagerly await its arrival.
+            <br>
+            <br>
+          
+
+        </p>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
